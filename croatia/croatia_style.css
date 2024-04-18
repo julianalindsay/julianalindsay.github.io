@@ -1,0 +1,115 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(210, 210, 177);
+    display: grid;
+}
+#croat{
+}
+/* .flag{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} */
+.flexit{
+    display: flex;
+    justify-content:space-evenly;
+}
+#croflag {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(60, 60, 60);
+    padding: 10px;
+    width: 360px;
+    grid-column-start: 2;
+    background-color: rgb(154, 188, 210);
+}
+.introduction{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 50px;
+}
+#a{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#mn{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.nav{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    padding-left: 5px;
+    padding-right: 10px;
+    width:fit-content;
+    height: fit-content;
+}
+#cromap {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(60, 60, 60);
+    margin-right: 50px;
+    padding: 10px;
+    grid-column-start: 3;
+    background-color: rgb(154, 188, 210);
+}
+#intro{
+    margin-left: 100px;
+}
+#pplsoc{
+    text-align: center;
+    margin-right: 100px;
+}
+.peopleandsociety{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+.population{
+    grid-column-start: 2;
+    text-align: center;
+    margin-right: 100px;
+}
+th,
+td{
+    border:1px solid rgb(60, 60, 60);
+    border-collapse: collapse;
+    padding: 4px;
+}
+table{
+    border:2px solid rgb(60, 60, 60);
+    border-collapse: collapse;
+}
+.table1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-left: 100px;
+}
+.table2{
+    grid-column-start: 3;
+    align-self: center;
+}
+#eg{
+    text-align: center;
+}
+#sl{
+    margin-right: 100px;
+}
+.b1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#medi{
+    float: inline-end;
+    border: 2px solid rgb(60, 60, 60);
+    padding: 10px;
+    background-color: rgb(154, 188, 210);
+}
+h1{
+    text-align: center;
+}
+#envi{
+    margin-left: 175px;
+}

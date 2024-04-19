@@ -3,24 +3,38 @@ body{
     background-color: rgb(210, 210, 177);
     display: grid;
 }
+a:link{
+    color: rgb(33, 48, 249);
+}
+a:visited{
+    color: rgb(249, 33, 62);
+}
+a:hover{
+    color: rgb(33, 148, 249);
+}
+a:active{
+    color: rgb(252, 183, 183);
+}
 #croat{
 }
 /* .flag{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 } */
-.flexit{
+/*.flexit{
     display: flex;
     justify-content:space-evenly;
-}
+} */
 #croflag {
     border-width: 2px;
     border-style: solid;
     border-color: rgb(60, 60, 60);
     padding: 10px;
     width: 360px;
-    grid-column-start: 2;
     background-color: rgb(154, 188, 210);
+    position: relative;
+    right: 475px;
+    left: 475px;
 }
 .introduction{
     display: grid;
@@ -89,14 +103,8 @@ table{
 }
 .table2{
     grid-column-start: 3;
-    align-self: center;
 }
-#eg{
-    text-align: center;
-}
-#sl{
-    margin-right: 100px;
-}
+
 .b1{
     grid-column-start: 1;
     grid-column-end: 3;
@@ -112,4 +120,19 @@ h1{
 }
 #envi{
     margin-left: 175px;
+}
+.nr{
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+.list1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.list2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.environment{
+    margin-left: 40px;
 }

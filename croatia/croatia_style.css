@@ -17,14 +17,6 @@ a:active{
 }
 #croat{
 }
-/* .flag{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-} */
-/*.flexit{
-    display: flex;
-    justify-content:space-evenly;
-} */
 #croflag {
     border-width: 2px;
     border-style: solid;

@@ -1,20 +1,24 @@
 .container{
     width: 90%;
     margin: auto;
+    background-color: rgb(229, 194, 246);
 }
 h1 {
     background-color: rgb(229, 194, 246);
     padding: 20px;
     margin:auto;
 }
-header{
+/*header{
     background-color: rgb(229, 194, 246);
     padding-top: 5px;
     padding-bottom: 10px;
-}
+}*/
 h1 {
     text-align: center;
     font-size: 40px;
+}
+#the-fs {
+    text-align: center;
 }
 body{
     background-color: rgb(199, 231, 229);
@@ -34,9 +38,9 @@ a:link {
 a:active {
     color: rgb(53, 243, 224); 
 } 
-a:hover { 
-    color: rgb(228, 15, 252);
-} 
+a:hover {
+    color: rgb(119, 0, 255);
+}
 a:visited {
     color: rgb(21, 88, 225);
 }

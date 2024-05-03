@@ -50,10 +50,10 @@ a:visited {
     margin-left: 40px;
 }
  
-.gnocchi-intro {
+/*.gnocchi-intro {
     grid-column: 2;
 
-}
+}*/
 #pretty-gnocchi{
     float: left;
     text-wrap: wrap;

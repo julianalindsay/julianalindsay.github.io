@@ -1,0 +1,186 @@
+.container{
+    width: 90%;
+    margin: auto;
+}
+h1 {
+    background-color: rgb(229, 194, 246);
+    padding: 20px;
+    margin:auto;
+}
+header{
+    background-color: rgb(229, 194, 246);
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+body{
+    background-color: rgb(199, 231, 229);
+    font-family: Poppins;
+    width: 65%;
+    margin: auto;
+    text-align: left;
+    }
+ @font-face {
+        font-family: Poppins;
+        src: url('Poppins/Poppins-Light.ttf');
+ }
+ 
+a:link {
+    color: rgb(167, 75, 213);
+}
+a:active {
+    color: rgb(53, 243, 224); 
+} 
+a:hover { 
+    color: rgb(228, 15, 252);
+} 
+a:visited {
+    color: rgb(21, 88, 225);
+}
+.page {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+ }
+ 
+#gnocchi-ing {
+    margin-left: 40px;
+}
+ 
+.gnocchi-intro {
+    grid-column: 2;
+
+}
+#pretty-gnocchi{
+    float: left;
+    text-wrap: wrap;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+ }
+#making-gnocchi{
+    float: right;
+    grid-area: img;
+    text-wrap: wrap;
+    margin-left: 20px;
+ }
+ ul{
+    list-style-type: none;
+ }
+ nav li {
+    display: inline-block;
+    margin-left: 20px;
+ }
+ nav {
+    text-align: center;
+ }
+ 
+ #me-and-mom {
+    float: left;
+    margin-right: 20px;
+    text-wrap: wrap;
+ }
+ #sauce-pot{
+    float: right;
+    margin-left: 20px;
+    text-wrap: wrap;
+ }
+ .sauce-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+ }
+ #sauce-ingredients {
+    grid-column: 1;
+ }
+ .sauce-directions {
+    grid-column: 2 ;
+ }
+ #sauce-ing {text-align: center;}
+ #sauce-dir {text-align: center;}
+
+ 
+ .meatball-ing{
+     text-align: start;
+   
+ }
+ #meatball-ingredients {
+   margin-left: 40px;
+ }
+ #meatball-directions {
+   margin-left: 40px;
+ }
+ #meatballs{
+    float: right;
+    text-wrap: wrap;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+ }
+ #artichoke-pot {
+    float: right;
+    /*text-wrap: wrap;*/
+ }
+ #artichoke-num {
+    text-align: center;
+    
+ }
+ #eating-artichokes {
+    float: left;
+    text-wrap: wrap;
+    margin-right: 20px; 
+ }
+ .artichoke-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ }
+ .art-ingredients {
+    grid-column: 1 / span 1;
+ }
+ #art-ingredients {
+    text-align: center;
+ }
+ .art-directions {
+    grid-column: 2 / span 2
+ }
+ #art-directions {
+    text-align: center;
+ }
+ /* #uncooked-manicotti {
+    float: left;
+    text-wrap: wrap;
+    margin-right: 20px;
+    object-fit: contain;
+ }
+ #unfinished-mani {
+    float: left;
+    text-wrap: wrap;
+    margin-right: 20px;
+ }
+ .mani-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ }
+ #mani-ing {
+    margin-left: 25%;
+ }
+ #pasta-ing {
+    text-align: center;
+ }
+ #filling-ing {
+    text-align: center;
+ }
+ .pasta-img-ing {
+    grid-column: 1; 
+ }
+ .unfinished-mani {
+    grid-column: 3;
+ } */
+ .page {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+ }
+ 
